@@ -1,0 +1,17 @@
+{
+  "name": "alibaba",
+  "version": "1.0.0",
+  "description": "this alibaba website landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/sass/main.scss assets/style/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
